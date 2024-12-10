@@ -1,11 +1,8 @@
 
-
-from google.colab import files
-uploaded = files.upload()
-
+!pip install pydub
 from pydub.generators import Sine
 import pandas as pd
-
+import numpy as np
 def generate_tone(pitch, duration, volume):
     """
     Generate a tone with a specific pitch, duration, and volume using pydub.
