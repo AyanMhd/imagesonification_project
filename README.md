@@ -76,10 +76,10 @@ python final.py
 
 ## Dependencies : 
 
-# pydub
-# Pillow
-# numpy
-# pandas 
+  pydub
+  Pillow
+  numpy
+  pandas 
 
 ## You can install all dependencies with: 
 
