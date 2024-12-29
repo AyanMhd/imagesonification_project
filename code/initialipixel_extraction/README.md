@@ -25,44 +25,7 @@ The goal of this project is to experiment with mapping pixel data (RGB values) f
 6. **Output:**
    - A single `.wav` file is generated, where each tone represents a 256-row chunk of the image.
 
-## Instructions for Running the Code
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/repository-name.git
-   cd repository-name
 
-## Install dependencies: 
-Make sure you have pandas and pydub installed. If not, you can install them using pip. 
-
-## Prepare your CSV file:
-
-The CSV file should contain three columns: Red, Green, and Blue for the RGB values of each pixel.
-Example CSV structure:
-css
-
-Red, Green, Blue
-120, 200,   150
-255, 255,   255
-0,   0,     0 
-
-## Run the code:
-
-Place your data.csv file in the same directory as the Python script, or update the csv_file_path variable in the script to the correct path of the CSV file.
-Run the Python script:
-bash
-Copy code
-python sound_mapping.py 
-
-## Download the generated sound file: After running the script, a .wav file will be generated (e.g., combined_sound.wav). If running in Google Colab, you can use the following code to download the file:
-
-from google.colab import files
-files.download('combined_sound.wav') 
-
-## Bugs and Issues
-If you encounter issues such as missing columns in the CSV file (e.g., R, G, B), make sure the CSV file contains the correct headers.
-The volume levels might need fine-tuning depending on the pixel brightness range.
-Issue #1: (Example) - Incorrect tone generation when CSV has more than 256 rows.
-Issue #2: (Example) - Pydub errors when handling large audio files; this could be resolved by increasing available memory or breaking down the chunks into smaller sizes.
 
 
