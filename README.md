@@ -32,3 +32,26 @@ Building on the extracted data, this assignment involved mapping pixel values to
 
 Feel free to explore the code and experiment with your own images! 🚀
 
+## How to use this tool?
+# Image Sonification Tool
+
+This tool allows users to sonify an image by converting its pixel values (RGB) into sound. The sonification can be based on either brightness-based pitch modulation or color-based sound effects.
+
+## Features
+
+- Upload an image and generate sound based on the image’s pixel values.
+- Choose between two sonification modes:
+  - **Brightness-based Pitch Modulation**: The brightness of the image influences the pitch and volume of the sound.
+  - **Color-based Sound Effects**: Each RGB channel is mapped to a distinct sound.
+
+## Setup Instructions
+
+To run this tool on your local machine or in a cloud environment like Google Colab, follow these steps:
+
+### Prerequisites
+
+1. **Python 3.x** installed on your system.
+2. **Install dependencies**: Create a virtual environment and install the required packages by running:
+
+   ```bash
+   pip install -r requirements.txt
