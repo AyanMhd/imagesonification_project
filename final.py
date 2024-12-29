@@ -26,9 +26,18 @@ def brightness_based_sonification(df, chunk_size=256):
         volume = -20 + (brightness / 255) * 20
         tone = Sine(pitch).to_audio_segment(duration=80)
         tone = tone + volume  # Modify this line for correct volume handling
+        
+        # Debugging: Print the generated tone info
         print(f"Generated tone with pitch {pitch} and volume {volume}")
+        
         combined_sound = tone if combined_sound is None else combined_sound + tone
+        
+        # Debugging: Check the size of the combined sound
+        print(f"Combined sound length: {len(combined_sound)}")
+
+    print("Sonification process finished.")
     return combined_sound
+
 
 
 def color_based_sonification(df, chunk_size=256):
