@@ -60,8 +60,11 @@ To run this tool on your local machine or in a cloud environment like Google Col
 
  1. Clone the repository to your local machine:  
 
-  git clone https://github.com/your-username/image-sonification.git
-cd image-sonification 
+  git clone https://github.com/your-username/image-sonification.git  
+  
+  Next change the directory to the main directory 
+  
+  cd image-sonification 
 
  2. Run the script: 
 
