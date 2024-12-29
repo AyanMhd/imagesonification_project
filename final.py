@@ -2,7 +2,6 @@ from google.colab import files
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-!pip install pydub
 from pydub.generators import Sine
 from pydub import AudioSegment
 from PIL import Image
