@@ -40,7 +40,7 @@ To run this tool on your local machine or in a cloud environment like Google Col
 
  2. Run the script: 
 
-python final.py 
+      python final.py 
 
  3. When prompted, upload an image and select one of the two sonification modes.
 
