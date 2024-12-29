@@ -11,7 +11,7 @@ def load_image(image_path):
     pixel_values = list(image.getdata())
     width, height = image.size
     np_format = np.array(pixel_values).reshape((width, height, 3))
-    df = pd.DataFrame(pixel_values, columns=['Red', 'Green', 'Blue'])
+    df = pd.DataFrame(pixel_values, columns=['Red', 'Green', 'Blue']) 
     return image, df
 
 def brightness_based_sonification(df, chunk_size=256):
@@ -64,7 +64,8 @@ def main():
     print("Welcome to the Image Sonification Tool!")
     image_path = input("Enter the path to your image file: ")
     try:
-        image, df = load_image(image_path)
+        image, df = load_image(image_path) 
+        return image.size
         print("Image loaded successfully!")
         print("1: Brightness-based Pitch Modulation")
         print("2: Color-based Sound Effects")
