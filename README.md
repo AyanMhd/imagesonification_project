@@ -76,14 +76,14 @@ python final.py
 
 ## Dependencies : 
 
-  pydub
-  Pillow
-  numpy
-  pandas 
+   pydub
+   Pillow
+   numpy
+   pandas 
 
 ## You can install all dependencies with: 
 
-  pip install -r requirements.txt  
+   pip install -r requirements.txt  
 
 ## Release Version
     The current version of the tool is v1.0. 
