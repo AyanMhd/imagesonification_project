@@ -55,3 +55,16 @@ To run this tool on your local machine or in a cloud environment like Google Col
 
    ```bash
    pip install -r requirements.txt
+   
+## Running the Tool  
+
+#1 Clone the repository to your local machine:  
+
+  git clone https://github.com/your-username/image-sonification.git
+cd image-sonification 
+
+#2 Run the script: 
+
+python image_sonification.py
+
+
