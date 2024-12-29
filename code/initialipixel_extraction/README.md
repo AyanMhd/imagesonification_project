@@ -25,6 +25,20 @@ The goal of this project is to experiment with mapping pixel data (RGB values) f
 6. **Output:**
    - A single `.wav` file is generated, where each tone represents a 256-row chunk of the image.
 
+## 🔊 Part 2: Sound Mapping from Pixel Data  
+Building on the extracted data, this assignment involved mapping pixel values to *sound properties*. 🎶  
+
+- 🎹 *Sound Parameter Mapping*:  
+   - A Python function was designed to convert pixel brightness or RGB values into sound parameters like *pitch, **volume, and **duration*.  
+   - Short sound clips were generated using libraries such as *pydub* or *pygame*.  
+
+- 🎧 *Sound Testing and Refinement*:  
+   - The mapping logic was tested on small sections of the image to refine the sound generation process.  
+
+---  
+
+Feel free to explore the code and experiment with your own images! 🚀
+
 
 
 
