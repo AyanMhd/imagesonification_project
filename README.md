@@ -64,7 +64,7 @@ To run this tool on your local machine or in a cloud environment like Google Col
   
   Next change the directory to the main directory 
   
-  cd image-sonification 
+      cd image-sonification 
 
  2. Run the script: 
 
@@ -83,7 +83,13 @@ python final.py
 
 ## You can install all dependencies with: 
 
-# pip install -r requirements.txt 
+# pip install -r requirements.txt  
+
+## Release Version
+    The current version of the tool is v1.0. 
+
+You can upload your own images to generate sound, but a sample image (initial_image.png) and its corresponding sonified 
+sound file (outputdata/generatedsoundfrompixelvalues) are included in the repository.
 
 
 
