@@ -1,5 +1,5 @@
-Pillow
-matplotlib
-numpy
-pydub
-pandas
+Pillow: For handling images (PIL library).
+matplotlib: For plotting the images and visualizing the data.
+numpy: For handling arrays and numerical operations.
+pydub: For generating and manipulating audio files.
+pandas: For data manipulation, particularly useful for reading and processing the CSV file containing pixel data.
