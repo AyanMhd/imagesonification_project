@@ -24,9 +24,12 @@ def brightness_based_sonification(df, chunk_size=256):
         brightness = avg_rgb.mean()
         pitch = 200 + (brightness / 255) * (2000 - 200)
         volume = -20 + (brightness / 255) * 20
-        tone = Sine(pitch).to_audio_segment(duration=80) + volume
+        tone = Sine(pitch).to_audio_segment(duration=80)
+        tone = tone + volume  # Modify this line for correct volume handling
+        print(f"Generated tone with pitch {pitch} and volume {volume}")
         combined_sound = tone if combined_sound is None else combined_sound + tone
     return combined_sound
+
 
 def color_based_sonification(df, chunk_size=256):
     """Sonify image by mapping RGB channels to distinct sound effects."""
