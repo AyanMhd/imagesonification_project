@@ -4,7 +4,7 @@ This project delves into the fascinating process of *image sonification* and *da
 
 ---
 
-## 📸 Assignment 1: Image Data Extraction and Visualization  
+## 📸 Part 1: Image Data Extraction and Visualization  
 The objective of this assignment was to explore *image sonification* by extracting pixel data from a high-resolution galaxy image 🌠. Here's how it was achieved:  
 
 - 🛠 *Data Extraction*:  
@@ -18,7 +18,7 @@ This step laid the foundation for understanding the relationship between pixel d
 
 ---
 
-## 🔊 Assignment 2: Sound Mapping from Pixel Data  
+## 🔊 Part 2: Sound Mapping from Pixel Data  
 Building on the extracted data, this assignment involved mapping pixel values to *sound properties*. 🎶  
 
 - 🎹 *Sound Parameter Mapping*:  
@@ -31,3 +31,4 @@ Building on the extracted data, this assignment involved mapping pixel values to
 ---  
 
 Feel free to explore the code and experiment with your own images! 🚀
+
