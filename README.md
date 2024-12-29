@@ -58,18 +58,18 @@ To run this tool on your local machine or in a cloud environment like Google Col
    
 ## Running the Tool  
 
-## 1. Clone the repository to your local machine:  
+# 1. Clone the repository to your local machine:  
 
   git clone https://github.com/your-username/image-sonification.git
 cd image-sonification 
 
-## 2. Run the script: 
+# 2. Run the script: 
 
 python final.py 
 
-## 3. When prompted, upload an image and select one of the two sonification modes.
+# 3. When prompted, upload an image and select one of the two sonification modes.
 
-## 4. The sound file will be generated and saved in the local directory. 
+# 4. The sound file will be generated and saved in the local directory. 
 
 ## Dependencies : 
 
